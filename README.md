@@ -1,5 +1,7 @@
 # misao writing about build assets
 
+[![image](https://cdn.netlify.com/dbdfa5d41c8c6b3a85cff58781017f510a5975aa/79af6/img/blog/bundled-static.png)](https://www.netlify.com/blog/2017/11/20/a-brief-history-of-build-tools/)
+
 pick up from [What are the best node.js build systems / task runners? (LAST UPDATED: Apr 26, 2018)](https://www.slant.co/topics/1276/~node-js-build-systems-task-runners)
 
 |name|config name|integration cli|copy base|taskable|
