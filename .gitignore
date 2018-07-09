@@ -1,3 +1,6 @@
+.dist/
+.gobble-build/
+
 # Logs
 logs
 *.log

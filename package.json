@@ -4,17 +4,38 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "devDependencies": {
+  "scripts": {
+    "broccoli:rm": "rimraf .dist/broccoli",
+    "broccoli:mkd": "make-dir .dist",
+    "broccoli:exec": "broccoli build .dist/broccoli",
+    "build:broccoli": "run-s broccoli:rm broccoli:mkd broccoli:exec",
+    "build:brunch": "brunch build",
+    "build:chin": "chin -c",
+    "build:gobble": "gobble build .dist/gobble/ -f",
+    "build:grunt": "grunt",
+    "build:gulp": "gulp",
+    "build:taskr": "taskr build",
+    "build": "run-s build:broccoli build:brunch build:chin build:gobble build:grunt build:gulp build:taskr"
+  },
+  "dependencies": {
     "broccoli": "^1.1.4",
     "broccoli-cli": "^1.0.0",
+    "broccoli-funnel": "^2.0.1",
+    "broccoli-merge-trees": "^3.0.0",
     "brunch": "^2.10.12",
     "chin": "^3.0.7",
+    "gobble": "^0.12.0",
     "gobble-cli": "^0.8.0",
     "grunt": "^1.0.3",
     "grunt-cli": "^1.2.0",
+    "grunt-contrib-copy": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-cli": "^2.0.1",
-    "laravel-mix": "^2.1.11",
     "taskr": "^1.1.0"
+  },
+  "devDependencies": {
+    "make-dir-cli": "^1.0.0",
+    "npm-run-all": "^4.1.3",
+    "rimraf": "^2.6.2"
   }
 }
