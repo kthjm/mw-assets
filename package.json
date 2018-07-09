@@ -1,0 +1,20 @@
+{
+  "name": "mw-assets",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "broccoli": "^1.1.4",
+    "broccoli-cli": "^1.0.0",
+    "brunch": "^2.10.12",
+    "chin": "^3.0.7",
+    "gobble-cli": "^0.8.0",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "laravel-mix": "^2.1.11",
+    "taskr": "^1.1.0"
+  }
+}
