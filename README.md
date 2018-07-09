@@ -18,7 +18,7 @@ pick up from [What are the best node.js build systems / task runners? (LAST UPDA
   - [broccoli #225: Add a force option on build.](https://github.com/broccolijs/broccoli/pull/225#issuecomment-84625203)
 - [`brunch`](https://github.com/brunch/brunch)
   - [Brunch: Config](http://brunch.io/docs/config)
-- [`chin`](https://github.com/kthjm/chin)
+- [`chin`](https://github.com/chinjs/chin)
 - [`gobble`](https://github.com/gobblejs/gobble)
   - [How to write a gobblefile](https://github.com/gobblejs/gobble/wiki/How-to-write-a-gobblefile)
   - [gobblejs/gobble: Why another build tool?](https://github.com/gobblejs/gobble/wiki/Why-another-build-tool%3F)
